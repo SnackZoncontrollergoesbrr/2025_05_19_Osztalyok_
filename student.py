@@ -6,3 +6,10 @@ class Student:
 
 tivadar = Student()
 print(tivadar)
+
+tivadar.name = "El Tivadar"
+tivadar.age = 16
+tivadar.sex = "Trippi Troppi"
+tivadar.score = 20
+
+print(f"Név: {tivadar.name}, Kor: {tivadar.age}, Nem: {tivadar.sex}, Pontszám: {tivadar.score}")
